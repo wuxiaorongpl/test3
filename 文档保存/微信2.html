@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/iconfont.css" rel="stylesheet">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        /*框架*/
+        #wrap{
+            border: solid 1px black;
+        }
+        /*顶部框架*/
+        .top{
+            height: 50px;
+            border: solid 1px black;
+            line-height: 50px;
+            background-color: darkgoldenrod;
+        }
+        /*加粗的顶部字体*/
+        #wrap .top strong{
+            float: top;
+            color: aliceblue;
+        }
+        /*图标的浮动*/
+        #wrap .top span{
+            float: right;
+            color: azure;
+        }
+        /*设置顶部“3：30PM.”字体的型号*/
+        .contion{
+            font-size: 40px;
+            margin-left: 310px;
+            align-content: center;
+        }
+        /*设置顶部图标的型号*/
+        .iconfont-1{
+            float: left;
+            font-size: 40px;
+            margin-right: 10px;
+        }
+
+        /*页面顶头的框架*/
+        .a1{
+            height: 150px;
+            border: solid 1px black;
+            background-color: burlywood;
+        }
+        /*页面顶部的“微信”加粗字体*/
+        .a1 strong{
+            float: left;
+        }
+        /*页面顶部的图标*/
+        .a1 span{
+            float: right;
+        }
+        /*页面顶头字体的设置*/
+        .head{
+            font-size: 50px;
+        }
+        /*页面顶头图标的设置*/
+        .a1 .iconfont{
+            font-size: 55px;
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+
+        /*菜单列表框*/
+        #wrap ul{
+            list-style: none;
+            height: 1350px;
+            overflow: scroll;
+        }
+        /*人员列表*/
+        #wrap ul li{
+            height: 200px;
+            border-bottom: solid 0.5px black;
+        }
+        /*页面列表框架*/
+        .a2 {
+            height: 200px;
+            float: left;
+        }
+        .a2 .img{
+            width: 200px;
+            height: 200px;
+            float: left;
+
+        }
+        /*对图片的设置*/
+        img{
+            width: 180px;
+            height:180px;
+            margin-top: 10px;
+            border-radius: 25px
+        }
+        /*对列表字体的设置*/
+        .a2  span{
+            height: 100px;
+            font-size: 100px;
+            float: left;
+            margin-left: 50px;
+        }
+        .a2 .small{
+            float: left;
+            font-size: 40px;
+        }
+
+        /*底部按钮的框架*/
+        .a3{
+            height: 185px;
+        }
+        /*底部按钮边框*/
+        #wrap .marger{
+            display: flex;
+            border: solid 1px black;
+            height: 185px;
+        }
+        /*设置四个边框*/
+        #wrap .marger div{
+            flex: 1;
+            border: solid 1px #7777;
+            background-color: burlywood;
+        }
+        #wrap .marger .iconfont{
+            font-size: 60px;
+            text-align: center;
+
+            /*line-height: 185px;*/
+        }
+
+
+    </style>
+</head>
+<body>
+<!--先设置一个框架-->
+    <div id="wrap">
+        <!--先建一个顶部-->
+        <div class="top">
+                <strong class="contion">3:30PM.</strong>
+                <span class="iconfont">&#xe695;</span>
+                <span class="iconfont">&#xe697;</span>
+                <span class="iconfont">&#xeb07;</span>
+                <span class="iconfont">&#xe603;</span>
+        </div>
+
+        <!--页面顶头-->
+        <div class="a1">
+            <strong class="head">微信(54)</strong>
+            <span class="iconfont">&#xe637;</span>
+            <span class="iconfont">&#xe617;</span>
+        </div>
+
+        <!--创建人物列表-->
+        <ul>
+            <li>
+                <div class="a2">
+                    <div class="img">
+                        <img src="img/花1.jpg">
+                    </div>
+                    <div class="small">
+                    <span>哈哈</span>
+                    </div>
+                    <div><span>5555</span></div>
+
+                </div>
+            </li>
+            <li>
+                <div class="a2">
+                    <div class="img">
+                        <img src="img/雨景1.jpg">
+                    </div>
+                    <div class="small">
+                        <span>大大啊</span>
+                    </div>
+                    <div><span>5555</span></div>
+
+                </div>
+            </li>
+            <li>
+                <div class="a2">
+                    <div class="img">
+                        <img src="img/花1.jpg">
+                    </div>
+                    <div class="small">
+                        <span>喀喀喀</span>
+                    </div>
+                    <div><span>5555</span></div>
+
+                </div>
+            </li>
+            <li>
+                <div class="a2">
+                    <div class="img">
+                        <img src="img/花1.jpg">
+                    </div>
+                    <div class="small">
+                        <span>嘻嘻嘻</span>
+                    </div>
+                    <div><span>5555</span></div>
+
+                </div>
+            </li>
+            <li>
+                <div class="a2">
+                    <div class="img">
+                        <img src="img/花1.jpg">
+                    </div>
+                    <div class="small">
+                        <span>狗男人</span>
+                    </div>
+                    <div><span>5555</span></div>
+
+                </div>
+            </li>
+            <li>
+                <div class="a2">
+                    <div class="img">
+                        <img src="img/花1.jpg">
+                    </div>
+                    <div class="small">
+                        <span>巴拉巴拉</span>
+                    </div>
+                    <div><span>古拉啦</span></div>
+
+                </div>
+            </li>
+            <li>
+                <div class="a2">
+                    <div class="img">
+                        <img src="img/花1.jpg">
+                    </div>
+                    <div class="small">
+                        <span>狗男人</span>
+                    </div>
+                    <div><span>5555</span></div>
+                </div>
+
+
+            </li>
+            <li>
+                <div class="a2">
+                    <div class="img">
+                        <img src="img/花1.jpg">
+                    </div>
+                    <div class="small">
+                        <span>韩大大</span>
+                    </div>
+                    <div><span>5555</span></div>
+
+                </div>
+            </li>
+            <li>
+                <div class="a2">
+                    <div class="img">
+                        <img src="img/花1.jpg">
+                    </div>
+                    <div class="small">
+                        <span>狗男人</span>
+                    </div>
+                    <div><span>5555</span></div>
+
+                </div>
+            </li>
+
+        </ul>
+
+        <!--底部页面跳转框架-->
+        <div class="marger">
+            <!--底部页面边框-->
+            <div class="a3">
+                <!--微信按钮的设置-->
+                <a href="微信2.html">
+                <div class="iconfont">
+                    &#xe62b;<br>
+                    <span>微信</span>
+                </div>
+                </a>
+            </div>
+            <div class="a3">
+                <a href="通讯录2.html">
+                <div class="iconfont">
+                    &#xe655;<br>
+                    <span>通讯录</span>
+                </div>
+                </a>
+            </div>
+            <div class="a3">
+                <a href="发现2.html">
+                <div class="iconfont">
+                    &#xe629;<br>
+                    <span>发现</span>
+                </div>
+                </a>
+            </div>
+            <div class="a3">
+                <a href="我.html">
+                <div class="iconfont">
+                    &#xe600;<br>
+                    <span>我</span>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--<a href="first.html">1</a>-->
+    <!--<a href="test.html">2</a>-->
+    <!--<a href="布局.html">3</a>-->
+
+</body>
+</html>

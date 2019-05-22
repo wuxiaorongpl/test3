@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #wrasp{
+            width: 590px;
+            height: 470px;
+            margin: auto;
+            border: solid #000000 1px;
+            position: relative;
+        }
+        #wrasp div{
+            width: 590px;
+            height: 470px;
+            background-image: url('img/雨景5.jpg');
+        }
+        #wrasp div:nth-child(1){
+            background-image: url('img/风景.jpg');
+        }
+        #wrasp div:nth-child(2){
+            background-image: url('img/雨景2.jpg');
+        }
+        #wrasp div:nth-child(3){
+            background-image: url('img/雨景3.jpg');
+        }
+        #wrasp div:nth-child(4){
+            background-image: url('img/雨景7.jpg');
+        }
+        #wrasp div:nth-child(5){
+            background-image: url('img/风景.jpg');
+        }
+        #wrasp ul{
+            list-style: none;
+            position: absolute;
+            top: 50px;
+            bottom: 30px;
+            right: 50px;
+        }
+        #wrasp ul li{
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: orange;
+            line-height: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="wrasp">
+        <ul>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+        </ul>
+    </div>
+</body>
+</html>

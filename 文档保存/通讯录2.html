@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/iconfont.css" rel="stylesheet">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        /*框架*/
+        #wrap{
+            border: solid 1px black;
+        }
+        /*顶部框架*/
+        .top{
+            height: 50px;
+            border: solid 1px black;
+            line-height: 50px;
+            background-color: black;
+        }
+        /*加粗的顶部字体*/
+        #wrap .top strong{
+            float: left;
+            color: aliceblue;
+        }
+        /*图标的浮动*/
+        #wrap .top span{
+            float: right;
+            color: azure;
+        }
+        /*设置顶部“3：30PM.”字体的型号*/
+        .contion{
+            font-size: 40px;
+            margin-left: 377px;
+            align-content: center;
+        }
+        /*设置顶部图标的型号*/
+        .iconfont{
+            float: left;
+            font-size: 40px;
+            margin-right: 10px;
+        }
+
+        /*页面顶头的框架*/
+        .a1{
+            height: 150px;
+            border: solid 1px black;
+            background-color: burlywood;
+        }
+        /*页面顶部的“微信”加粗字体*/
+        .a1 strong{
+            float: left;
+        }
+        /*页面顶部的图标*/
+        .a1 span{
+            float: right;
+        }
+        /*页面顶头字体的设置*/
+        .head{
+            font-size: 50px;
+        }
+        /*页面顶头图标的设置*/
+        .a1 .iconfont{
+            font-size: 55px;
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+
+        #wrap ul{
+            list-style: none;
+            height: 1350px;
+            overflow: scroll;
+        }
+        /*人员列表*/
+        #wrap ul li{
+            height: 150px;
+            border-bottom: solid 0.5px black;
+        }
+        /*页面列表框架*/
+        .a2 {
+            height: 140px;
+            float: left;
+        }
+        /*对列表字体的设置*/
+        .a2  span{
+            height: 70px;
+            font-size: 50px;
+            float: left;
+        }
+        .a2 .iconfont{
+            font-size: 135px;
+            border-radius: 25px
+
+
+        }
+        .b1{
+            height: 80px;
+            border: solid 0.5px burlywood;
+            background-color: burlywood;
+            font-size: 70px;
+        }
+
+
+        /*底部按钮的框架*/
+        .a3{
+            height: 185px;
+        }
+        /*底部按钮边框*/
+        #wrap .marger{
+            display: flex;
+            border: solid 1px black;
+            height: 185px;
+        }
+        /*设置四个边框*/
+        #wrap .marger div{
+            flex: 1;
+            border: solid 1px #7777;
+            background-color: burlywood;
+        }
+        #wrap .marger .iconfont{
+            font-size: 60px;
+            text-align: center;
+
+            /*line-height: 185px;*/
+        }
+
+
+
+    </style>
+</head>
+<body>
+<!--先设置一个框架-->
+    <div id="wrap">
+    <!--先建一个顶部-->
+    <div class="top">
+        <strong class="contion">3:30PM.</strong>
+        <span class="iconfont">&#xe695;</span>
+        <span class="iconfont">&#xe697;</span>
+        <span class="iconfont">&#xeb07;</span>
+        <span class="iconfont">&#xe603;</span>
+    </div>
+        <!--页面顶头-->
+        <div class="a1">
+            <strong class="head">通讯录(54)</strong>
+            <span class="iconfont">&#xe637;</span>
+            <span class="iconfont">&#xe617;</span>
+        </div>
+
+        <ul>
+            <li>
+                <div class="a2">
+                    <span class="iconfont">&#xe613;</span>
+                    <span>新的朋友</span>
+
+                </div>
+
+            </li>
+            <li>
+                <div class="a2">
+                    <span class="iconfont">&#xeb08;</span>
+                    <span>群聊</span>
+                </div>
+            </li>
+            <li>
+                <div class="a2">
+                    <span class="iconfont">&#xeb0a;</span>
+                    <span>标签</span>
+                </div>
+            </li>
+            <li>
+                <div class="a2">
+                     <span class="iconfont">&#xeb09;</span>
+                    <span>公众号</span>
+                </div>
+            </li>
+            <div class="b1">H</div>
+            <li>
+                <div class="a2">
+                    <span>哈哈</span>
+                </div>
+            </li>
+        </ul>
+        <!--底部页面跳转框架-->
+        <div class="marger">
+            <!--底部页面边框-->
+            <div class="a3">
+                <!--微信按钮的设置-->
+                <a href="微信2.html">
+                    <div class="iconfont">
+                        &#xe62b;<br>
+                        <span>微信</span>
+                    </div>
+                </a>
+            </div>
+            <div class="a3">
+                <a href="通讯录2.html">
+                    <div class="iconfont">
+                        &#xe655;<br>
+                        <span>通讯录</span>
+                    </div>
+                </a>
+            </div>
+            <div class="a3">
+                <a href="发现2.html">
+                    <div class="iconfont">
+                        &#xe629;<br>
+                        <span>发现</span>
+                    </div>
+                </a>
+            </div>
+            <div class="a3">
+                <a href="我.html">
+                    <div class="iconfont">
+                        &#xe600;<br>
+                        <span>我</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+<!--<a href="first.html">1</a>-->
+<!--<a href="test.html">2</a>-->
+<!--<a href="布局.html">3</a>--><!--底部页面跳转框架-->
+<div class="marger">
+    <!--底部页面边框-->
+    <div class="a3">
+        <!--微信按钮的设置-->
+        <a href="微信2.html">
+            <div class="iconfont">
+                &#xe62b;<br>
+                <span>微信</span>
+            </div>
+        </a>
+    </div>
+    <div class="a3">
+        <a href="通讯录2.html">
+            <div class="iconfont">
+                &#xe655;<br>
+                <span>通讯录</span>
+            </div>
+        </a>
+    </div>
+    <div class="a3">
+        <a href="发现2.html">
+            <div class="iconfont">
+                &#xe629;<br>
+                <span>发现</span>
+            </div>
+        </a>
+    </div>
+    <div class="a3">
+        <a href="我.html">
+            <div class="iconfont">
+                &#xe600;<br>
+                <span>我</span>
+            </div>
+        </a>
+    </div>
+</div>
+</div>
+<!--<a href="first.html">1</a>-->
+<!--<a href="test.html">2</a>-->
+<!--<a href="布局.html">3</a>-->
+</body>
+</html>

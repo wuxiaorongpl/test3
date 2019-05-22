@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/iconfont.css" rel="stylesheet">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #wrap{
+            border: solid 1px black;
+        }
+        .top{
+            height: 50px;
+            border: solid 1px black;
+            line-height: 50px;
+        }
+
+        #wrap .top strong{
+            float: left;
+        }
+        #wrap .top span{
+            float: right;
+        }
+        .contion{
+            font-size: 40px;
+            align-content: center;
+        }
+        .iconfont{
+            float: left;
+            font-size: 40px;
+        }
+
+        /*页面顶头的框架*/
+        .a1{
+            height: 150px;
+            border: solid 1px black;
+            background-color: burlywood;
+        }
+        /*页面顶部的“微信”加粗字体*/
+        .a1 strong{
+            float: left;
+        }
+        /*页面顶部的图标*/
+        .a1 span{
+            float: right;
+        }
+        /*页面顶头字体的设置*/
+        .head{
+            font-size: 50px;
+        }
+        /*页面顶头图标的设置*/
+        .a1 .iconfont{
+            font-size: 55px;
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+
+        #wrap ul{
+            list-style: none;
+            height: 1350px;
+            overflow: scroll;
+        }
+        /*人员列表*/
+        #wrap ul li{
+            height: 150px;
+            border-bottom: solid 0.5px black;
+        }
+        /*页面列表框架*/
+        .a2 {
+            height: 140px;
+            float: left;
+        }
+        /*对列表字体的设置*/
+        .a2  span{
+            height: 70px;
+            font-size: 50px;
+            float: left;
+        }
+        .a2 .iconfont{
+            font-size: 135px;
+            border-radius: 25px
+        }
+
+        #wrap .marger{
+            display: flex;
+            border: solid 1px black;
+            height: 300px;
+        }
+        #wrap .marger div{
+            flex: 1;
+            border: solid 1px #7777;
+            background-color: burlywood;
+        }
+        #wrap .marger .iconfont{
+            font-size: 64px;
+            align-content: center;
+            text-align: center;
+            margin-left: 49px;
+        }
+        .a3{
+            width: 244px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+<!--先设置一个框架-->
+<div id="wrap">
+    <!--先建一个顶部-->
+    <div class="top">
+        <strong class="contion">3:30PM.</strong>
+        <span class="iconfont">&#xe695;</span>
+        <span class="iconfont">&#xe697;</span>
+        <span class="iconfont">&#xeb07;</span>
+        <span class="iconfont">&#xe603;</span>
+    </div>
+    <!--页面顶头-->
+    <div class="a1">
+        <strong class="head">发现</strong>
+        <span class="iconfont">&#xe637;</span>
+        <span class="iconfont">&#xe617;</span>
+    </div>
+
+    <!--创建人物列表-->
+    <ul>
+        <li>
+            <div class="a2">
+                <span class="iconfont">&#xe60e;</span>
+                <span>朋友圈</span>
+            </div>
+        </li>
+        <li>
+            <div class="a2">
+                <span class="iconfont">&#xe66f;</span>
+                <span>扫一扫</span>
+            </div>
+        </li>
+        <li>
+            <div class="a2">
+                <span class="iconfont">&#xe605;</span>
+                <span>摇一摇</span>
+            </div>
+        </li>
+        <li>
+            <div class="a2">
+                <span class="iconfont">&#xe612;</span>
+                <span>看一看</span>
+            </div>
+        </li>
+        <li>
+            <div class="a2">
+                <span class="iconfont">&#xe611;</span>
+                <span>搜一搜</span>
+            </div>
+        </li>
+        <li>
+            <div class="a2">
+                <span class="iconfont">&#xe610;</span>
+                <span>附近的人</span>
+            </div>
+        </li>
+        <li>
+            <div class="a2">
+                <span class="iconfont">&#xe60a;</span>
+                <span>购物</span>
+            </div>
+        </li>
+        <li>
+            <div class="a2">
+                <span class="iconfont">&#xe607;</span>
+                <span>游戏</span>
+            </div>
+        </li>
+        <li>
+            <div class="a2">
+                <span class="iconfont">&#xe61d;</span>
+                <span>小程序</span>
+            </div>
+        </li>
+    </ul>
+
+    <!--底部页面跳转框架-->
+    <div class="marger">
+        <!--底部页面边框-->
+        <div class="a3">
+            <!--微信按钮的设置-->
+            <div class="iconfont">
+                &#xe62b;<br>
+                <span>微信</span>
+            </div>
+        </div>
+        <div class="a3">
+            <div class="iconfont">
+                &#xe655;<br>
+                <span>通讯录</span>
+            </div>
+        </div>
+        <div class="a3">
+            <div class="iconfont">
+                &#xe629;<br>
+                <span>发现</span>
+            </div>
+        </div>
+        <div class="a3">
+            <div class="iconfont">
+                &#xe600;<br>
+                <span>我</span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

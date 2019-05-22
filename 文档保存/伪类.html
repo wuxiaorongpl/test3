@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            paadding: 0;
+            margin: 0;
+        }
+        div{
+            background-color: darkgoldenrod;
+            width: 100px;
+            height: 200%;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li a{
+            text-decoration: none;
+            color: burlywood;
+            display: block;
+        }
+        ul li a:hover .a{
+            display: inherit;
+        }
+        .a{
+            background-color: brown;
+            width: 100px;
+            height: 20px;
+            display: inherit;
+        }
+        ul li{
+            width: 100px;
+            height: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <!伪类---->
+    <div>
+        <ul>
+            <li><a href="#">1</a>
+                <div class="a"></div>
+            </li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">1</a></li>
+        </ul>
+        <!--一个元素处于隐藏状态
+        display:none 不占位隐藏
+        visibility:hidden 占位隐藏
+        空标签隐藏
+        -->
+    </div>
+    <div style="opacity: inherit"></div>
+<div style="background-color: salmon"></div>
+</body>
+</html>

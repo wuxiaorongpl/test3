@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li{
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            border: solid 1px black;
+        }
+        .a{
+            width: 800px;
+            height: 500px;
+            background-color: darkgoldenrod;
+            position: absolute;
+            top: 0;
+            left: 100px;
+            display: none;
+        }
+        ul li:hover .a{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<!--定位 把一个元素的位置进行操作 position
+    如果对一个元素进行了位置操作 left top
+    相对定位 相对的是原来的位置  占着原来的位置
+    绝对定位 脱离文档流 不占原来位置
+    注意：包含元素的父元素是否定位 如果定位了 就相对于已经定位的元素的位置
+    如果包含他的元素没有定位 则一直往上找 直到浏览器
+    -->
+    <!--<div class="test">123
+        <div style="width: 100px;height: 100px;background-color: salmon";position="absolute">
+            <div class="item">456</div>
+        </div>
+
+    </div>-->
+    <ul>
+        <li>1
+        <div class="a"></div>
+        </li>
+        <li>1
+            <div class="a"></div>
+        </li>
+        <li>1
+            <div class="a"></div>
+        </li>
+        <li>1
+            <div class="a"></div>
+        </li>
+        <li>1
+            <div class="a"></div>
+        </li>
+        <li>1
+            <div class="a"></div>
+        </li>
+        <li>1
+            <div class="a"></div>
+        </li>
+        <li>1
+            <div class="a"></div>
+        </li>
+        <li>1
+            <div class="a"></div>
+        </li>
+
+    </ul>
+</body>
+</html>

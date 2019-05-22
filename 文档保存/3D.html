@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #wrap{
+            width: 200px;
+            height: 200px;
+            border: solid 1px #000000;
+            perspective: 800px;
+
+        }
+        #di{
+            width: 200px;
+            height: 200px;
+            transform-style: preserve-3d;
+            position: absolute;
+        }
+        #wrap #di div{
+            width: 200px;
+            height: 200px;
+            transform-style: preserve-3d;
+            position: absolute;
+        }
+        #wrap #di .left{
+            transform: translateX(-200px) rotate(90deg);
+            transform-origin: right;
+        }
+        #wrap #di .right{
+            transform: translateX(-200px) rotate(90deg);
+            transform-origin: left;
+        }
+        #wrap #di .top{
+            transform: translateX(-200px) rotate(90deg);
+            transform-origin: bottom;
+        }
+        #wrap #di .bottom{
+            transform: translateX(-200px) rotate(90deg);
+            transform-origin: top;
+        }
+        #wrap #di .front{
+            transform: translateX(-200px) rotate(90deg);
+            transform-origin: right;
+        }
+        #wrap #di .after{
+            transform: translateX(-200px) rotate(90deg);
+            transform-origin: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="di">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="after"></div>
+        </div>
+    </div>
+</body>
+</html>

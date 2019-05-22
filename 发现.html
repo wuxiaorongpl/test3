@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="文档保存/css/iconfont.css" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        /*整个手机页面的边框*/
+        #wrap{
+            border: solid 1px black;
+        }
+
+        /*页面顶部的第一个边框设置*/
+        .top{
+            border: solid 1px black;
+            height: 70px;
+            background-color: black;
+            line-height: 70px;
+        }
+        #wrap .top strong{
+            float: left;
+            color: white;
+            align-content: center;
+        }
+        .cention{
+            font-size: 50px;
+        }
+        #wrap .top span{
+            float: right;
+            color: white;
+        }
+        .iconfont{
+            font-size: 50px;
+        }
+
+        /*正式页面上面的边框的设置*/
+        .under{
+            border: solid 1px black;
+            height: 100px;
+            background-color: burlywood;
+        }
+        .under small{
+            float: left;
+            color: #000;
+            font-size: 70px;
+            line-height: 90px;
+            margin-left: 10px;
+        }
+        .under span{
+            float: right;
+            color: #000;
+            line-height: 120px;
+        }
+        .under .iconfont{
+            margin-right: 35px;
+            font-size: 100px;
+        }
+
+        /*列表框架*/
+        #wrap ul{
+            list-style: none;
+            height: 1350px;
+        }
+        /*列表*/
+        #wrap ul li{
+            height: 150px;
+            border-bottom: solid 0.5px black;
+        }
+        /*页面列表框架*/
+        .a3 {
+            height: 100px;
+            float: left;
+        }
+        /*对列表字体的设置*/
+        .a3 span {
+            font-size: 70px;
+        }
+        .a3  span .cention{
+            font-size: 70px;
+            float: left;
+            line-height: 140px;
+        }
+        .a3 .iconfont{
+            font-size: 90px;
+            border-radius: 25px
+            float: left;
+        }
+
+        /*底部按钮的设置*/
+        .buttom{
+            height: 170px;
+            background-color: burlywood;
+        }
+        .a2{
+            width: 242px;
+            height: 170px;
+            border: 1px solid black;
+            float: left;
+        }
+        .buttom .a2 .iconfont{
+            font-size: 70px;
+            float: left;
+        }
+        .buttom .a2 .cention{
+            font-size: 50px;
+            float: bottom;
+        }
+
+    </style>
+</head>
+<body>
+<!--手机整个边框-->
+<div id="wrap">
+    <div class="top">
+        <strong class="cention">4:54PM</strong>
+        <span class="iconfont">&#xe695;</span>
+        <span class="iconfont">&#xe7ac;</span>
+        <span class="iconfont">&#xe603;</span>
+        <span class="iconfont">&#xe615;</span>
+        <span class="iconfont">&#xe601;</span>
+    </div>
+
+    <!--正式页面的上面的边框-->
+    <div class="under">
+        <small claas="cention">发 现</small>
+        <span class="iconfont">&#xe617;</span>
+        <span class="iconfont">&#xe637;</span>
+    </div>
+
+
+
+    <!--创建人物列表-->
+    <ul>
+        <li>
+            <div class="a3">
+                <a href="朋友圈.html">
+                <span class="iconfont">&#xe60e;</span>
+                <span>朋友圈</span>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="a3">
+                <span class="iconfont">&#xe66f;</span>
+                <span>扫一扫</span>
+            </div>
+        </li>
+        <li>
+            <div class="a3">
+                <span class="iconfont">&#xe605;</span>
+                <span>摇一摇</span>
+            </div>
+        </li>
+        <li>
+            <div class="a3">
+                <span class="iconfont">&#xe612;</span>
+                <span>看一看</span>
+            </div>
+        </li>
+        <li>
+            <div class="a3">
+                <span class="iconfont">&#xe611;</span>
+                <span>搜一搜</span>
+            </div>
+        </li>
+        <li>
+            <div class="a3">
+                <span class="iconfont">&#xe610;</span>
+                <span>附近的人</span>
+            </div>
+        </li>
+        <li>
+            <div class="a3">
+                <span class="iconfont">&#xe60a;</span>
+                <span>购物</span>
+            </div>
+        </li>
+        <li>
+            <div class="a3">
+                <span class="iconfont">&#xe607;</span>
+                <span>游戏</span>
+            </div>
+        </li>
+        <li>
+            <div class="a3">
+                <span class="iconfont">&#xe61d;</span>
+                <span>小程序</span>
+            </div>
+        </li>
+    </ul>
+
+    <!--底部按钮的设置-->
+    <div class="buttom">
+        <div class="a2">
+            <a href="微信.html">
+                <span class="iconfont">&#xe621;;</span>
+                <br>
+                <span class="cention">微信</span>
+            </a>
+        </div>
+        <div class="a2">
+            <a href="通讯录.html">
+                <span class="iconfont">&#xe655;</span>
+                <br>
+                <span class="cention">通讯录</span>
+            </a>
+        </div>
+        <div class="a2">
+            <a href="发现.html">
+                <span class="iconfont">&#xe629;</span>
+                <br>
+                <span class="cention">发现</span>
+            </a>
+        </div>
+        <div class="a2">
+            <a href="我.html">
+                <span class="iconfont">&#xe6c1;</span>
+                <br>
+                <span class="cention">我</span>
+            </a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

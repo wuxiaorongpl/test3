@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--定义动画-->
+    <style>
+        @keyframes test {
+            /*from{
+                width: 100px;
+            }
+            to{
+                width: 500px;
+            }*/
+            0%{
+                width: 100px;
+            }
+            5%{
+                width: 120px;
+            }
+            10%{
+               width: 200px;
+            }
+            50%{
+                width: 400px;
+            }
+            100%{
+                width: 500px;
+            }
+        }
+       /* @-o-keyframes test {
+
+        }keyframes test {
+            from{
+                width: 100px;
+            }
+            to{
+                width: 500px;
+            }
+        }
+        @-webkit-keyframes  test{
+        }keyframes test {
+            from{
+                width: 100px;
+            }
+            to{
+                width: 500px;
+            }
+        }
+        @-moz-keyframes test {
+
+        }keyframes test {
+            from{
+                width: 100px;
+            }
+            to{
+                width: 500px;
+            }
+        }*/
+        /*动画定义好后 要执行 什么情况下执行 执行时要有一个出发点*/
+        .di{
+            width: 100px;
+            height: 100px;
+            border: solid 1px #1296db;
+        }
+        /*用伪类进行操作 实现动画*/
+        .di:hover{
+            /*动画名称 动画执行时间 延迟时间*/
+            /*动画 一个执行过程 最后状态不会停留在结束时动画的状态上*/
+
+            /*动画分两部分
+            1.距离：定义从哪分到哪
+            2.时间段：需要多久
+            */
+            animation: test 1s 5s linear;
+            -moz-animation: test 1s 5s linear;
+            -webkit-animation: test 1s 5s linear;
+            -o-animation: test 1s 5s linear;
+            width: 500px;
+        }
+        #test:hover{
+            box-shadow: 3px 2px 5px 10px;
+        }
+    </style>
+</head>
+<body>
+<!--动画 动 从开始状态到结束状态 谁在变化
+    从开始到结束过程----定义动画
+-->
+    <div class="di">
+        <div id="test">
+        </div>
+    </div>
+</body>
+</html>
